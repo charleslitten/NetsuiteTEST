@@ -58,6 +58,7 @@ COMPLEX_TYPES = {
         'Classification', 'ClassificationSearch',
         'Department', 'DepartmentSearch',
         'Location', 'LocationSearch',
+        'NonInventoryResaleItem',
         'Subsidiary', 'SubsidiarySearch',
         'VendorCategory', 'VendorCategorySearch',
     ],
