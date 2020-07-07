@@ -4,7 +4,7 @@ with open('README.md', 'r') as f:
     long_description = f.read()
 
 setuptools.setup(
-    name='netsuitesdk',
+    name='netsuitetest',
     version='1.4.0',
     author='Siva Narayanan',
     author_email='siva@fyle.in',
@@ -13,7 +13,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     keywords=['netsuite', 'api', 'python', 'sdk'],
-    url='https://github.com/fylein/netsuite-sdk-py',
+    url='https://github.com/charleslitten/NetsuiteTEST',
     packages=setuptools.find_packages(),
     install_requires=['zeep'],
     classifiers=[
