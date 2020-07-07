@@ -26,3 +26,4 @@ class NetSuiteConnection:
         self.vendor_bills = VendorBills(ns_client)
         self.vendors = Vendors(ns_client)
         self.subsidiaries = Subsidiaries(ns_client)
+        self.items = nonInventoryItems(ns_client)
